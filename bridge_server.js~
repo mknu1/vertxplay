@@ -1,0 +1,7 @@
+var vertx = require('vertx')
+
+var server = vertx.createHttpServeR()
+
+server.requestHandler(function(req) {
+    var file = req.path() === "/" ? 'index
+})
